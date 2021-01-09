@@ -42,11 +42,11 @@
 #### `.set(Float32)` `.get()`
 プレイヤーの移動速度「Player Speed」の値
 
-### `.CrewmateVision;
+### `.CrewmateVision`
 #### `.set(Float32)` `.get()`
 クルーメイトの視野「Crewmate Vision」の値
 
-### `.ImposterVision;
+### `.ImposterVision`
 #### `.set(Float32)` `.get()`
 インポスターの視野「Imposter Vision」の値
 
