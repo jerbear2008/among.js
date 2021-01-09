@@ -1,5 +1,5 @@
 # Document
-`Game`から得られる関数の一覧です。
+`Game` から得られる関数の一覧です。
 
 ## Client
 #### `.IsPublicServer`
@@ -13,7 +13,7 @@
 ### Customize
 #### `.RecommendedSettings`
 ##### `.set(Boolean)` `.get()`
-おすすめ設定「Recommended Setting」のチェック
+推奨設定「Recommended Setting」のチェック
 
 ### `.ConfirmEjects`
 #### `.set(Boolean)` `.get()`
