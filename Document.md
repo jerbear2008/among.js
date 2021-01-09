@@ -47,9 +47,11 @@
 ### `Game.Arena.KillDistance`
 #### `.set(Byte)` `.get()`
 キル可能範囲「Kill Distance」のレベル
-0 ・・・ Short
-1 ・・・ Medium
-2 ・・・ Long
+|Value|Type|
+|:-:|:-:|
+|`0`|Short|
+|`1`|Medium|
+|`2`|Long|
 
 ### `Game.Arena.VisualTasks`
 #### `.set(Boolean)` `.get()`
@@ -58,9 +60,11 @@
 ### `Game.Arena.TaskBarUpdates`
 #### `.set(Byte)` `.get()`
 タスクバーの表示設定「Task Bar Updates」のレベル
-0 ・・・ Always
-1 ・・・ Meetings
-2 ・・・ Never
+|Value|Type|
+|:-:|:-:|
+|`0`|Always|
+|`1`|Meetings|
+|`2`|Never|
 
 ### `Game.Arena.CommonTasks`
 #### `.set(Uint32)` `.get()`
