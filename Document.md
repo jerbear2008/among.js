@@ -4,7 +4,7 @@
 ## Client
 ### `.ServerIsPublic`
 #### `.set(Boolean)` `.get()`
-|Value|Type|
+|Value|Status|
 |:-:|:-:|
 |`true`|Public|
 |`false`|Private|
