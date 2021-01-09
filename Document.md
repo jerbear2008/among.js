@@ -9,6 +9,14 @@
 |`true`|Public|
 |`false`|Private|
 
+#### `.ID`
+##### `.get()`
+自分自身のプレイヤーID
+
+#### `.ServerHostID`
+##### `.get()`
+接続しているサーバーのホストのプレイヤーID
+
 ## Arena
 ### Customize
 #### `.RecommendedSettings`
