@@ -1,2 +1,2 @@
-# among.js
-A npm package for Among Us
+# What's this?
+Among.js is a npm package to monitor memory for Among Us.
