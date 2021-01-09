@@ -1,5 +1,5 @@
 # Document
-`Game` から得られる関数の一覧です。
+`Game`から得られる関数の一覧です。
 
 ## Client
 #### `.IsPublicServer`
