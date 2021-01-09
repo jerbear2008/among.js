@@ -10,6 +10,7 @@
 |`false`|Private|
 
 ## Arena
+### (Customize)
 ### `.RecommendedSettings`
 #### `.set(Boolean)` `.get()`
 おすすめ設定「Recommended Setting」のチェック
@@ -87,3 +88,13 @@
 ### `.ShortTasks`
 #### `.set(Uint32)` `.get()`
 タスクの数「Short Tasks」の値
+
+### Others
+### `.ID`
+#### `.set(Uint32)` `.get()`
+アリーナの種類
+|Value|Stage|
+|:-:|:-:|
+|`0`|The Skeld|
+|`1`|Mirahq|
+|`2`|Polus|
