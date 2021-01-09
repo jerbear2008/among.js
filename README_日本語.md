@@ -11,7 +11,7 @@ npm i among.js
 ### 例
 `こ↑こ↓` に among.js の関数を入力します。
 ```js
-const { Client } = require("./index.js"/*"among.js"*/);
+const { Client } = require("among.js");
 let client = new Client();
 
 client.on("ready", () => {
