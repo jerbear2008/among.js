@@ -2,6 +2,7 @@
 `Game` から得られる関数の一覧です。
 
 ## Client
+### (Customize)
 ### `.ServerIsPublic`
 #### `.set(Boolean)` `.get()`
 |Value|Status|
@@ -10,7 +11,6 @@
 |`false`|Private|
 
 ## Arena
-### (Customize)
 ### `.RecommendedSettings`
 #### `.set(Boolean)` `.get()`
 おすすめ設定「Recommended Setting」のチェック
@@ -89,7 +89,7 @@
 #### `.set(Uint32)` `.get()`
 タスクの数「Short Tasks」の値
 
-### Others
+### (Others)
 ### `.ID`
 #### `.set(Uint32)` `.get()`
 アリーナの種類
