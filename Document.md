@@ -1,3 +1,13 @@
+# Document
+`Game` から得られる関数の一覧です。
+
+## Client
+### `Game.Client.ServerIsPublic`
+#### `.set(Boolean)` `.get()`
+|Value|Type|
+|:-:|:-:|
+|`true`|Public|
+|`false`|Private|
 
 ## Arena
 ### `Game.Arena.RecommendedSettings`
