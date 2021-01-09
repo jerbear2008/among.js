@@ -11,7 +11,7 @@ npm i among.js
 ### Example
 For `your code`, insert a function from among.js.
 ```js
-const { Client } = require("./index.js"/*"among.js"*/);
+const { Client } = require("among.js");
 let client = new Client();
 
 client.on("ready", () => {
