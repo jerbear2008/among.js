@@ -3,7 +3,7 @@
 
 ## Client
 ### (Customize)
-### `.ServerIsPublic`
+### `.IsPublicServer`
 #### `.set(Boolean)` `.get()`
 |Value|Status|
 |:-:|:-:|
