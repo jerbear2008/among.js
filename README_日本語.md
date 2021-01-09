@@ -15,7 +15,7 @@ const { Client } = require("among.js");
 let client = new Client();
 
 client.on("ready", () => {
-	console.log("Ready!")
+	console.log("準備完了！")
 	client.on("update", (Game) => {
 		// こ↑こ↓
 	});
