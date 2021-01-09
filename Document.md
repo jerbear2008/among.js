@@ -2,7 +2,7 @@
 `Game` から得られる関数の一覧です。
 
 ## Client
-### `Game.Client.ServerIsPublic`
+### `.ServerIsPublic`
 #### `.set(Boolean)` `.get()`
 |Value|Type|
 |:-:|:-:|
@@ -10,51 +10,51 @@
 |`false`|Private|
 
 ## Arena
-### `Game.Arena.RecommendedSettings`
+### `.RecommendedSettings`
 #### `.set(Boolean)` `.get()`
 おすすめ設定「Recommended Setting」のチェック
 
-### `Game.Arena.ConfirmEjects`
+### `.ConfirmEjects`
 #### `.set(Boolean)` `.get()`
 役職結果「Confirm Ejects」のチェック
 
-### `Game.Arena.MaxEmergencyMeetings`
+### `.MaxEmergencyMeetings`
 #### `.set(Uint32)` `.get()`
 最大緊急会議回数「Emergency Meetings」の値
 
-### `Game.Arena.EmergencyCooldown`
+### `.EmergencyCooldown`
 #### `.set(Uint32)` `.get()`
 緊急会議のクールダウン「Emergency Cooldown」の値
 
-### `Game.Arena.DiscussionTime`
+### `.DiscussionTime`
 #### `.set(Uint32)` `.get()`
 会議時間「Discussion Time」の値
 
-### `Game.Arena.VotingTime`
+### `.VotingTime`
 #### `.set(Uint32)` `.get()`
 投票時間「VotingTime Time」の値
 
-### `Game.Arena.AnonymousVotes`
+### `.AnonymousVotes`
 #### `.set(Boolean)` `.get()`
 匿名投票「Anonymous Votes」のチェック
 
-### `Game.Arena.PlayerSpeed`
+### `.PlayerSpeed`
 #### `.set(Float32)` `.get()`
 プレイヤーの移動速度「Player Speed」の値
 
-### `Game.Arena.CrewmateVision;
+### `.CrewmateVision;
 #### `.set(Float32)` `.get()`
 クルーメイトの視野「Crewmate Vision」の値
 
-### `Game.Arena.ImposterVision;
+### `.ImposterVision;
 #### `.set(Float32)` `.get()`
 インポスターの視野「Imposter Vision」の値
 
-### `Game.Arena.KillCooldown`
+### `.KillCooldown`
 #### `.set(Float32)` `.get()`
 キルのクールダウン「Kill Cooldown」の値
 
-### `Game.Arena.KillDistance`
+### `.KillDistance`
 #### `.set(Byte)` `.get()`
 キル可能範囲「Kill Distance」のレベル
 |Value|Type|
@@ -63,11 +63,11 @@
 |`1`|Medium|
 |`2`|Long|
 
-### `Game.Arena.VisualTasks`
+### `.VisualTasks`
 #### `.set(Boolean)` `.get()`
 可視タスク「Visual Tasks」のチェック
 
-### `Game.Arena.TaskBarUpdates`
+### `.TaskBarUpdates`
 #### `.set(Byte)` `.get()`
 タスクバーの表示設定「Task Bar Updates」のレベル
 |Value|Type|
@@ -76,14 +76,14 @@
 |`1`|Meetings|
 |`2`|Never|
 
-### `Game.Arena.CommonTasks`
+### `.CommonTasks`
 #### `.set(Uint32)` `.get()`
 タスクの数「Common Tasks」の値
 
-### `Game.Arena.LongTasks`
+### `.LongTasks`
 #### `.set(Uint32)` `.get()`
 タスクの数「Long Tasks」の値
 
-### `Game.Arena.ShortTasks`
+### `.ShortTasks`
 #### `.set(Uint32)` `.get()`
 タスクの数「Short Tasks」の値
