@@ -73,8 +73,8 @@
 |`.id`|Player ID|`Uint32`|
 |`.name`|Player Name|`String`|
 |`.color`|Body Color|`String`, `Uint32`|
-|`.position.x`|X|`Float32`|
-|`.position.y`|Y|`Float32`|
+|`.position.x`|Position X|`Float32`|
+|`.position.y`|Position Y|`Float32`|
 |`.isImposter`|Imposter|`Boolean`|
 |`.isGhost`|Ghost(Dead)|`Boolean`|
 #### `.get()`
