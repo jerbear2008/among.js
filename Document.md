@@ -1,9 +1,7 @@
 # Document
-
 ## `client.game`
 ### `.code`
 #### `.get()`
-
 ---
 ### `.option`
 #### `.set(structure)`
@@ -48,7 +46,7 @@
 	"shortTasks": Uint32
 }
 ```
-
+---
 ### `.players`
 #### `.get()`
 ```js
@@ -69,7 +67,7 @@
 	},
 ]
 ```
-
+---
 ### `.mine`
 #### `.set()`
 |key|Alias|Type|
