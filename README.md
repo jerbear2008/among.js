@@ -56,7 +56,7 @@ client.on("ready", () => {
 	});
 });
 
-// when among.js has problem
+// when among.js has a problem
 client.on("error", (error) => {
 	throw new Error(error);
 });
