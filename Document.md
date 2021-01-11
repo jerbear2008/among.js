@@ -1,4 +1,7 @@
 # API
+## `client.start()`
+Link to the game. When it completes, the `ready` event will be fired.
+
 ## `client.game`
 ### `.code`
 #### `.get()`
