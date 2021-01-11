@@ -2,8 +2,8 @@
 
 ## `client.game.option`
 ### `.set(object)`
-|Key|Description|Type|
-|:-:|:-:|:-:|
+|Key|Alias|Type|
+|:--|:--|:-:|
 |`recommendedSettings`|Recommended Settings|`Boolean`|
 |`confirmEjects`|Confirm Ejects|`Boolean`|
 |`maxEmergencyMeetings`|Emergency Meetings|`Uint32`|
@@ -15,11 +15,32 @@
 |`crewmateVision`|Crewmate Vision|`Float32`|
 |`imposterVision`|Imposter Vision|`Float32`|
 |`killCooldown`|Kill Cooldown|`Uint32`|
-|`killDistance`|Kill Distance|`String`,`Byte`|
+|`killDistance`|Kill Distance|`String`, `Byte`|
 |`isVisualTasks`|Visual Tasks|`Boolean`|
-|`taskBarUpdates`|TaskBar Updates|`String`,`Byte`|
+|`taskBarUpdates`|TaskBar Updates|`String`, `Byte`|
 |`commonTasks`|Common Tasks|`Uint32`|
 |`longTasks`|Long Tasks|`Uint32`|
 |`shortTasks`|Short Tasks|`Uint32`|
 
 ### `.get()`
+```json
+{
+  recommendedSettings: Boolean,
+	confirmEjects: Boolean,
+	maxEmergencyMeetings: Uint32,
+	emergencyCooldown: Uint32,
+	discussionTime: Uint32,
+	votingTime: Uint32,
+	isAnonymousVotes: Boolean,
+	playerSpeed: Float32,
+	crewmateVision: Float32,
+	imposterVision: Float32,
+	killCooldown: Uint32,
+	killDistance: String,
+	isVisualTasks: Boolean,
+	taskBarUpdates: String,
+	commonTasks: Uint32,
+	longTasks: Uint32,
+	shortTasks: Uint32
+}
+```
