@@ -1,7 +1,8 @@
 # Document
 
-## `client.game.option`
-### `.set(structure)`
+## `client.game`
+### `.option`
+#### `.set(structure)`
 |key|Alias|Type|
 |:--|:--|:-:|
 |`.recommendedSettings`|Recommended Settings|`Boolean`|
@@ -21,8 +22,7 @@
 |`.commonTasks`|Common Tasks|`Uint32`|
 |`.longTasks`|Long Tasks|`Uint32`|
 |`.shortTasks`|Short Tasks|`Uint32`|
-
-### `.get()`
+#### `.get()`
 ```js
 {
  	"recommendedSettings": Boolean,
