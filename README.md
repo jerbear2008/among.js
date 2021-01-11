@@ -22,32 +22,43 @@ client.on("ready", () => {
 
 		// Get all players information
 		console.clear();
+		let crewmatePlayers = new Array();
 		let imposterPlayers = new Array();
 		let ghostPlayers = new Array();
+		let disconnectedPlayers = new Array();
 		let players = client.game.players.get();
 		for (let player of players) {
-			if (player.isImposter) {
-				imposterPlayers.push(player.color);
-			}
-			if (player.isGhost) {
-				ghostPlayers.push(player.color);
+			if (!player.isDisconnected) {
+				if (!player.isGhost) {
+					if (!player.isImposter) {
+						crewmatePlayers.push(player.color);
+					} else {
+						imposterPlayers.push(player.color);
+					}
+				} else {
+					ghostPlayers.push(player.color);
+				}
+			} else {
+				disconnectedPlayers.push(player.color);
 			}
 		}
 
 		// Result
-		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 		console.log("                                                                        ");
+		console.log(` Player: ${(players.length - ghostPlayers.length - disconnectedPlayers.length)} / ${players.length}`);
+		console.log(` Crewmate: ${crewmatePlayers.join(", ")}`);
 		console.log(` Imposter: ${imposterPlayers.join(", ")}`);
 		console.log(` Dead: ${ghostPlayers.join(", ")}`);
 		console.log("                                                                        ");
-		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 
 	});
 });
 
 // when among.js has problem
 client.on("error", (error) => {
-	throw new Error("[Among.js], error);
+	throw new Error(error);
 });
 
 // start
