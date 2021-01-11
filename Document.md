@@ -1,108 +1,25 @@
 # Document
-`Game` から得られる関数の一覧です。
 
-## Client
-#### `.IsPublicServer`
-##### `.set(Boolean)` `.get()`
-|Value|Status|
-|:-:|:-:|
-|`true`|Public|
-|`false`|Private|
+## `client.game.option`
+### `.set(object)`
+|Key|Description|Type|
+|:-:|:-:|:-:|
+|`recommendedSettings`|Recommended Settings|`Boolean`|
+|`confirmEjects`|Confirm Ejects|`Boolean`|
+|`maxEmergencyMeetings`|Emergency Meetings|`Uint32`|
+|`emergencyCooldown`|Emergency Cooldown|`Uint32`|
+|`discussionTime`|Discussion Time|`Uint32`|
+|`votingTime`|Voting Time|`Uint32`|
+|`isAnonymousVotes`|Anonymous Votes|`Boolean`|
+|`playerSpeed`|Player Speed|`Float32`|
+|`crewmateVision`|Crewmate Vision|`Float32`|
+|`imposterVision`|Imposter Vision|`Float32`|
+|`killCooldown`|Kill Cooldown|`Uint32`|
+|`killDistance`|Kill Distance|`String`,`Byte`|
+|`isVisualTasks`|Visual Tasks|`Boolean`|
+|`taskBarUpdates`|TaskBar Updates|`String`,`Byte`|
+|`commonTasks`|Common Tasks|`Uint32`|
+|`longTasks`|Long Tasks|`Uint32`|
+|`shortTasks`|Short Tasks|`Uint32`|
 
-#### `.ID`
-##### `.get()`
-自分自身のプレイヤーID
-
-#### `.ServerHostID`
-##### `.get()`
-接続しているサーバーのホストのプレイヤーID
-
-## Arena
-### Customize
-#### `.RecommendedSettings`
-##### `.set(Boolean)` `.get()`
-推奨設定「Recommended Setting」のチェック
-
-### `.ConfirmEjects`
-#### `.set(Boolean)` `.get()`
-役職結果「Confirm Ejects」のチェック
-
-#### `.MaxEmergencyMeetings`
-##### `.set(Uint32)` `.get()`
-最大緊急会議回数「Emergency Meetings」の値
-
-#### `.EmergencyCooldown`
-##### `.set(Uint32)` `.get()`
-緊急会議のクールダウン「Emergency Cooldown」の値
-
-#### `.DiscussionTime`
-##### `.set(Uint32)` `.get()`
-会議時間「Discussion Time」の値
-
-#### `.VotingTime`
-##### `.set(Uint32)` `.get()`
-投票時間「VotingTime Time」の値
-
-#### `.AnonymousVotes`
-##### `.set(Boolean)` `.get()`
-匿名投票「Anonymous Votes」のチェック
-
-#### `.PlayerSpeed`
-##### `.set(Float32)` `.get()`
-プレイヤーの移動速度「Player Speed」の値
-
-#### `.CrewmateVision`
-##### `.set(Float32)` `.get()`
-クルーメイトの視野「Crewmate Vision」の値
-
-#### `.ImposterVision`
-##### `.set(Float32)` `.get()`
-インポスターの視野「Imposter Vision」の値
-
-#### `.KillCooldown`
-##### `.set(Float32)` `.get()`
-キルのクールダウン「Kill Cooldown」の値
-
-#### `.KillDistance`
-##### `.set(Byte)` `.get()`
-キル可能範囲「Kill Distance」のレベル
-|Value|Type|
-|:-:|:-:|
-|`0`|Short|
-|`1`|Medium|
-|`2`|Long|
-
-#### `.VisualTasks`
-##### `.set(Boolean)` `.get()`
-可視タスク「Visual Tasks」のチェック
-
-#### `.TaskBarUpdates`
-##### `.set(Byte)` `.get()`
-タスクバーの表示設定「Task Bar Updates」のレベル
-|Value|Type|
-|:-:|:-:|
-|`0`|Always|
-|`1`|Meetings|
-|`2`|Never|
-
-#### `.CommonTasks`
-##### `.set(Uint32)` `.get()`
-タスクの数「Common Tasks」の値
-
-#### `.LongTasks`
-##### `.set(Uint32)` `.get()`
-タスクの数「Long Tasks」の値
-
-#### `.ShortTasks`
-##### `.set(Uint32)` `.get()`
-タスクの数「Short Tasks」の値
-
-### Others
-#### `.ID`
-##### `.set(Uint32)` `.get()`
-アリーナの種類
-|Value|Stage|
-|:-:|:-:|
-|`0`|The Skeld|
-|`1`|Mirahq|
-|`2`|Polus|
+### `.get()`
