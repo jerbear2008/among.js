@@ -60,7 +60,8 @@
 			"y": Float32
 		},
 		"isImposter": Boolean,
-		"isGhost": Boolean
+		"isGhost": Boolean,
+		"isDisconnected": Boolean
 	},
 	{
 		...
@@ -79,6 +80,7 @@
 |`.position.y`|Position Y|`Float32`|
 |`.isImposter`|Imposter|`Boolean`|
 |`.isGhost`|Ghost(Dead)|`Boolean`|
+|`.isDisconnected|Disconnected|`Boolean`|
 #### `.get()`
 ```js
 {
@@ -90,7 +92,8 @@
 		"y": Float32
 	},
 	"isImposter": Boolean,
-	"isGhost": Boolean
+	"isGhost": Boolean,
+	"isDisconnected": Boolean
 }
 ```
 
