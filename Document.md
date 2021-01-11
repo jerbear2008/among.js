@@ -45,9 +45,7 @@
 }
 ```
 
-### players
-
-
+### `.players`
 #### `.get()`
 ```js
 [
@@ -66,4 +64,30 @@
 		...
 	},
 ]
+```
+
+### `.mine`
+#### `.set()`
+|key|Alias|Type|
+|:--|:--|:-:|
+|`.id`|Player ID|`Uint32`|
+|`.name`|Player Name|`String`|
+|`.color`|Body Color|`String`, `Uint32`|
+|`.position.x`|X|`Float32`|
+|`.position.y`|Y|`Float32`|
+|`.isImposter`|Imposter|`Boolean`|
+|`.isGhost`|Ghost(Dead)|`Boolean`|
+#### `.get()`
+```js
+{
+	"id": Uint32,
+	"name": String,
+	"color": String,
+	"position": {
+		"x": Float32,
+		"y": Float32
+	},
+	"isImposter": Boolean,
+	"isGhost": Boolean
+}
 ```
