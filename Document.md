@@ -1,11 +1,11 @@
-# Document
+# API
 ## `client.game`
 ### `.code`
 #### `.get()`
 ---
 ### `.option`
 #### `.set(structure)`
-|key|Alias|Type|
+|Key|Alias|Type|
 |:--|:--|:-:|
 |`.recommendedSettings`|Recommended Settings|`Boolean`|
 |`.confirmEjects`|Confirm Ejects|`Boolean`|
@@ -70,7 +70,7 @@
 ---
 ### `.mine`
 #### `.set()`
-|key|Alias|Type|
+|Key|Alias|Type|
 |:--|:--|:-:|
 |`.id`|Player ID|`Uint32`|
 |`.name`|Player Name|`String`|
@@ -93,3 +93,20 @@
 	"isGhost": Boolean
 }
 ```
+
+# Object
+## `color`
+|Color|Value|
+|:-:|:-:|
+|`red`|`0`|
+|`blue`|`1`|
+|`green`|`2`|
+|`pink`|`3`|
+|`orange`|`4`|
+|`yellow`|`5`|
+|`black`|`6`|
+|`white`|`7`|
+|`purple`|`8`|
+|`brown`|`9`|
+|`cyan`|`10`|
+|`lime`|`11`|
