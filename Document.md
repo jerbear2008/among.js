@@ -1,6 +1,10 @@
 # Document
 
 ## `client.game`
+### `.code`
+#### `.get()`
+The game code.
+
 ### `.option`
 #### `.set(structure)`
 |key|Alias|Type|
