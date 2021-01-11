@@ -44,3 +44,26 @@
 	"shortTasks": Uint32
 }
 ```
+
+### players
+
+
+#### `.get()`
+```js
+[
+	{
+		"id": Uint32,
+		"name": String,
+		"color": String,
+		"position": {
+			"x": Float32,
+			"y": Float32
+		},
+		"isImposter": Boolean,
+		"isGhost": Boolean
+	},
+	{
+		...
+	},
+]
+```
