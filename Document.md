@@ -80,7 +80,7 @@
 |`.position.y`|Position Y|`Float32`|
 |`.isImposter`|Imposter|`Boolean`|
 |`.isGhost`|Ghost(Dead)|`Boolean`|
-|`.isDisconnected|Disconnected|`Boolean`|
+|`.isDisconnected`|Disconnected|`Boolean`|
 #### `.get()`
 ```js
 {
