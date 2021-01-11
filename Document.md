@@ -24,7 +24,7 @@
 
 ### `.get()`
 ```js
-const Structure = {
+{
  	"recommendedSettings": Boolean,
 	"confirmEjects": Boolean,
 	"maxEmergencyMeetings": Uint32,
