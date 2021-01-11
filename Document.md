@@ -25,22 +25,22 @@
 ### `.get()`
 ```json
 {
-  recommendedSettings: Boolean,
-	confirmEjects: Boolean,
-	maxEmergencyMeetings: Uint32,
-	emergencyCooldown: Uint32,
-	discussionTime: Uint32,
-	votingTime: Uint32,
-	isAnonymousVotes: Boolean,
-	playerSpeed: Float32,
-	crewmateVision: Float32,
-	imposterVision: Float32,
-	killCooldown: Uint32,
-	killDistance: String,
-	isVisualTasks: Boolean,
-	taskBarUpdates: String,
-	commonTasks: Uint32,
-	longTasks: Uint32,
-	shortTasks: Uint32
+ 	"recommendedSettings": Boolean,
+	"confirmEjects": Boolean,
+	"maxEmergencyMeetings": Uint32,
+	"emergencyCooldown": Uint32,
+	"discussionTime": Uint32,
+	"votingTime": Uint32,
+	"isAnonymousVotes": Boolean,
+	"playerSpeed": Float32,
+	"crewmateVision": Float32,
+	"imposterVision": Float32,
+	"killCooldown": Uint32,
+	"killDistance": String,
+	"isVisualTasks": Boolean,
+	"taskBarUpdates": String,
+	"commonTasks": Uint32,
+	"longTasks": Uint32,
+	"shortTasks": Uint32
 }
 ```
