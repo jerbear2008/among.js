@@ -23,8 +23,8 @@
 |`shortTasks`|Short Tasks|`Uint32`|
 
 ### `.get()`
-```json
-{
+```js
+const Structure = {
  	"recommendedSettings": Boolean,
 	"confirmEjects": Boolean,
 	"maxEmergencyMeetings": Uint32,
