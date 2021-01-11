@@ -45,12 +45,12 @@ client.on("ready", () => {
 
 		// Result
 		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-		console.log("                                                                        ");
+		console.log("");
 		console.log(` Player: ${(players.length - ghostPlayers.length - disconnectedPlayers.length)} / ${players.length}`);
 		console.log(` Crewmate: ${crewmatePlayers.join(", ")}`);
 		console.log(` Imposter: ${imposterPlayers.join(", ")}`);
 		console.log(` Dead: ${ghostPlayers.join(", ")}`);
-		console.log("                                                                        ");
+		console.log("");
 		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 
 	});
