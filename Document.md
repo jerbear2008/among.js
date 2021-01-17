@@ -5,6 +5,8 @@ Link to the game. When it completes, the `ready` event will be fired.
 
 ## `client.game`
 ### `.code`
+#### `.set()`
+×
 #### `.get()`
 Get the server code.  
 ゲームのコードを取得します。
