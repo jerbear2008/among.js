@@ -1,19 +1,20 @@
-# Among.js
-A npm package to monitor memory for Among Us.
+# among.js
+~~Please understand my broken English, I'm not very good at English lmao~~
 
-### Install
-Run the following command in a terminal to install this package.
+## About
+among.js is a npm package to monitor memory for [Among Us](https://store.steampowered.com/app/945360/Among_Us).
+
+## Installation
 ```
-npm i among.js
+npm install among.js
 ```
+It will work fine on **Windows 64bit** but by others system, it won't be not working.
 
-### Document
-[Here](https://github.com/CantRunRiver/among.js/blob/main/Document.md)!
-
-### Sample
+## Example
 ```js
-const { Client } = require("among.js");
-let client = new Client();
+// Include this package
+const AmongUs = require("among.js");
+const client = new AmongUs.Client();
 
 // when among.js has been ready
 client.on("ready", () => {
@@ -48,14 +49,15 @@ client.on("ready", () => {
 		}
 
 		// Result
-		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 		console.log("");
-		console.log(` Player: ${(_players.length - ghostPlayers.length - disconnectedPlayers.length)} / ${players.length}`);
-		console.log(` Crewmate: ${crewmatePlayers.join(", ")}`);
-		console.log(` Imposter: ${imposterPlayers.join(", ")}`);
-		console.log(` Dead: ${ghostPlayers.join(", ")}`);
+		console.log(` Player: ${(_players.length - players.ghost.length - players.disconnected.length)} / ${_players.length}`);
 		console.log("");
-		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+		console.log(` Crewmate: ${players.crewmate.join(", ")}`);
+		console.log(` Imposter: ${players.imposter.join(", ")}`);
+		console.log("");
+		console.log(` Dead: ${players.ghost.join(", ")}`);
+		console.log("");
+		console.log(` Disconnected: ${players.disconnected.join(", ")}`);
 
 	});
 });
@@ -67,5 +69,12 @@ client.on("error", (error) => {
 
 // start
 client.start();
-
 ```
+
+## Links
+- [Github](https://github.com/CantRunRiver/among.js)
+- [Document](https://github.com/CantRunRiver/among.js/blob/main/Document.md)
+- [Among.js Server](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+## Help
+If you don't understand something in the documentation, please join to our official [Among.js Server](https://www.youtube.com/watch?v=dQw4w9WgXcQ)!
