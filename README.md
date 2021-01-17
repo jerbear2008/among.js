@@ -20,33 +20,37 @@ client.on("ready", () => {
 	console.log("Ready!")
 	client.on("update", () => {
 
-		// Get all players information
+		// Reset
 		console.clear();
-		let crewmatePlayers = new Array();
-		let imposterPlayers = new Array();
-		let ghostPlayers = new Array();
-		let disconnectedPlayers = new Array();
-		let players = client.game.players.get();
-		for (let player of players) {
+		let players = {
+			crewmate: new Array(),
+			imposter: new Array(),
+			ghost: new Array(),
+			disconnected: new Array()
+		};
+
+		// Get all players information
+		const _players = client.game.players.get();
+		for (let player of _players) {
 			if (!player.isDisconnected) {
 				if (!player.isGhost) {
 					if (!player.isImposter) {
-						crewmatePlayers.push(player.color);
+						players.crewmate.push(player.color);
 					} else {
-						imposterPlayers.push(player.color);
+						players.imposter.push(player.color);
 					}
 				} else {
-					ghostPlayers.push(player.color);
+					players.ghost.push(player.color);
 				}
 			} else {
-				disconnectedPlayers.push(player.color);
+				players.disconnected.push(player.color);
 			}
 		}
 
 		// Result
 		console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 		console.log("");
-		console.log(` Player: ${(players.length - ghostPlayers.length - disconnectedPlayers.length)} / ${players.length}`);
+		console.log(` Player: ${(_players.length - ghostPlayers.length - disconnectedPlayers.length)} / ${players.length}`);
 		console.log(` Crewmate: ${crewmatePlayers.join(", ")}`);
 		console.log(` Imposter: ${imposterPlayers.join(", ")}`);
 		console.log(` Dead: ${ghostPlayers.join(", ")}`);
