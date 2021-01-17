@@ -8,7 +8,7 @@ Link to the game. When it completes, the `ready` event will be fired.
 #### `.get()`
 Get the server code.  
 ゲームのコードを取得します。
----
+
 ### `.option`
 #### `.set(structure)`
 |Key|Alias|Type|
@@ -52,7 +52,7 @@ Get the server code.
 	"shortTasks": Uint32
 }
 ```
----
+
 ### `.players`
 #### `.get()`
 ```js
@@ -74,7 +74,7 @@ Get the server code.
 	},
 ]
 ```
----
+
 ### `.mine`
 #### `.set()`
 |Key|Alias|Type|
