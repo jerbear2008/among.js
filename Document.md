@@ -1,10 +1,13 @@
 # API
 ## `client.start()`
-Link to the game. When it completes, the `ready` event will be fired.
+Link to the game. When it completes, the `ready` event will be fired.  
+ゲームに接続します。接続の準備が完了した場合、`ready`イベントが発火されます。
 
 ## `client.game`
 ### `.code`
 #### `.get()`
+Get the server code.  
+ゲームのコードを取得します。
 ---
 ### `.option`
 #### `.set(structure)`
