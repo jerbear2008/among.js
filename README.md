@@ -73,7 +73,7 @@ client.start();
 
 ## Links
 - [Github](https://github.com/CantRunRiver/among.js)
-- [Document](https://github.com/CantRunRiver/among.js/blob/main/Document.md)
+- [Document](https://github.com/CantRunRiver/among.js/wiki)
 - [Among.js Server](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Help
