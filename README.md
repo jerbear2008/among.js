@@ -1,16 +1,14 @@
 # among.js
-~~Please understand my broken English, I'm not very good at English lmao~~
-
 ## About
+~~Please understand my broken English, I'm not very good at [English](https://www.deepl.com/translator) lmao~~
 among.js is a npm package to monitor memory for [Among Us](https://store.steampowered.com/app/945360/Among_Us).
 
 ## Installation
-It uses [memoryjs](https://github.com/Rob--/memoryjs).
-If you haven't [Visual C++ Build Tools](http://go.microsoft.com/fwlink/?LinkId=691126), you have to install it to use.
+⚠ This package isn't installed if the system hasn't the file that [memoryjs](https://github.com/Rob--/memoryjs) need.
 ```
 npm install among.js
 ```
-It will work fine on **Windows 64bit** but by others system, it won't be not working.
+It'll work fine on **Windows 64bit** but by others system, it won't be not working.
 
 ## Example
 ```js
