@@ -4,6 +4,7 @@
 - Fixed that `client.game.option.set` has an error when it was called.
 - Added events `on.gameStart`，`on.gameFinish`，`on.playerMoved`，`on.playerVented`，`on.playerDead` and `on.playerDisconnected`.
 - Changed the name of an event `on.update` → `on.gameUpdate`.
+- Fixed that `isGhost` of `client.game.players.get` was always `isGhost` of `client.game.mine.get`.
 
 ### v1.0.1
 2020/01/20
