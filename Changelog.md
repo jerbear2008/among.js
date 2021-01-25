@@ -3,6 +3,7 @@
 2020/XX/XX
 - Added functions `client.game.status` and `client.game.statistics`.
 - Added events `on.gameJoin`, `on.gameLeave`, `on.gameStart`，`on.gameFinish`，`on.playerMove`，`on.playerDeath`，`on.playerDisconnect` and `on.playerVent`.
+- Changed core of system.
 - Changed the name of an event `on.update` → `on.gameUpdate`.
 - Fixed that `client.game.option.set` has an error when it was called.
 - Fixed that `isGhost` of `client.game.players.get` was always `isGhost` of `client.game.mine.get`.
