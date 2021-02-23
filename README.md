@@ -1,5 +1,5 @@
 # among.js
-![npm](https://img.shields.io/npm/v/among.js) ![GitHub last commit](https://img.shields.io/github/last-commit/CantRunRiver/among.js) ![GitHub contributors](https://img.shields.io/github/contributors/CantRunRiver/among.js) ![Lines of code](https://img.shields.io/tokei/lines/github/CantRunRiver/among.js) ![supports Steam](https://img.shields.io/badge/supports-Steam-yellow)
+[![HitCount](http://hits.dwyl.com/jerbear2008/amongjs.svg)](http://hits.dwyl.com/jerbear2008/amongjs) ![npm](https://img.shields.io/npm/v/among.js) ![GitHub last commit](https://img.shields.io/github/last-commit/CantRunRiver/among.js) ![GitHub contributors](https://img.shields.io/github/contributors/CantRunRiver/among.js) ![Lines of code](https://img.shields.io/tokei/lines/github/CantRunRiver/among.js) ![supports Steam](https://img.shields.io/badge/supports-Steam-yellow)
 ## About
 among.js is a npm package to monitor memory for [Among Us](https://store.steampowered.com/app/945360/Among_Us).
 
